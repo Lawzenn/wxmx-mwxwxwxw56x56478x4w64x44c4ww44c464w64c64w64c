@@ -36,7 +36,7 @@ bot.on('message', message => {
   if (message.content === prefix + "ban"){
       var help_embed = new Discord.RichEmbed()
           .setColor('#F30000')
-          .addField("Bannisement", " :x:  -/ban arrive bientot !")
+          .addField("Bannisement", " :x:-/ban arrive bientot !")
           .setFooter("Bot Programmé par Lawzenn")
       message.channel.sendEmbed(help_embed);
       //message.channel.sendMessage("Voici les commandes du bot :\n -/help pour afficher les commandes");
@@ -46,7 +46,7 @@ bot.on('message', message => {
   if (message.content === prefix + "kick"){
       var help_embed = new Discord.RichEmbed()
           .setColor('#F30000')
-          .addField("Exclusion", " :x: -/kick arrive bientot !")
+          .addField("Exclusion", " :x:-/kick arrive bientot !")
           .setFooter("Bot Programmé par Lawzenn")
         message.channel.sendEmbed(help_embed);
         //message.channel.sendMessage("Voici les commandes du bot :\n -/help pour afficher les commandes");
@@ -56,7 +56,7 @@ bot.on('message', message => {
   if (message.content === prefix + "tempban"){
       var help_embed = new Discord.RichEmbed()
           .setColor('#F30000')
-          .addField("Temps-Bannissement", " :x: -/tempban arrive bientot !")
+          .addField("Temps-Bannissement", " :x:-/tempban arrive bientot !")
           .setFooter("Bot Programmé par Lawzenn")
         message.channel.sendEmbed(help_embed);
         //message.channel.sendMessage("Voici les commandes du bot :\n -/help pour afficher les commandes");
