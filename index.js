@@ -10,7 +10,7 @@ bot.on('ready', () => {
     console.log("Je suis connecté !");
 });
 
-bot.login('NDE3MjY4NzIzNzA0MTM1Njgw.DXQjTQ.-calVGBupswIdMMHG1w0GmgKVbY');
+bot.login('NDE3MjY4NzIzNzA0MTM1Njgw.DXsO8g.zApx7G7453oZJJqo5qEgKrTIKTY');
 
 bot.on('message', message => {
     if (message.content === '/ping'){
